@@ -148,6 +148,65 @@ export default function Index() {
           </div>
         </section>
 
+        <section className="section-padding" style={{ borderTop: "var(--border)" }}>
+          <div className="section-header">
+            <h2 className="section-title">РАСПИСАНИЕ ШОУ</h2>
+            <a href="#" className="text-sm md:text-base" style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}>
+              Все события
+            </a>
+          </div>
+
+          <div className="show-grid">
+            <div className="show-card">
+              <div className="show-day">ПТ — 14 июня</div>
+              <div className="show-card-body">
+                <div className="show-time">22:00</div>
+                <div className="show-info">
+                  <h3 className="show-name">Scarlett Rouge</h3>
+                  <p className="show-desc">Фирменное открытие ночи. Классический стриптиз под джаз 70-х.</p>
+                </div>
+                <span className="menu-tag" style={{ position: "static", display: "inline-block" }}>Хит</span>
+              </div>
+            </div>
+
+            <div className="show-card">
+              <div className="show-day">ПТ — 14 июня</div>
+              <div className="show-card-body">
+                <div className="show-time">00:00</div>
+                <div className="show-info">
+                  <h3 className="show-name">Velvet Twins</h3>
+                  <p className="show-desc">Парное шоу с живым саксофоном. Только по пятницам.</p>
+                </div>
+                <span className="menu-tag" style={{ position: "static", display: "inline-block", background: "var(--secondary)" }}>Эксклюзив</span>
+              </div>
+            </div>
+
+            <div className="show-card">
+              <div className="show-day">СБ — 15 июня</div>
+              <div className="show-card-body">
+                <div className="show-time">22:00</div>
+                <div className="show-info">
+                  <h3 className="show-name">Lana Noir</h3>
+                  <p className="show-desc">Эротическое шоу в стиле film noir. Маски, перья, загадка.</p>
+                </div>
+                <span className="menu-tag" style={{ position: "static", display: "inline-block", background: "var(--accent)", color: "var(--bg)" }}>Новинка</span>
+              </div>
+            </div>
+
+            <div className="show-card">
+              <div className="show-day">СБ — 15 июня</div>
+              <div className="show-card-body">
+                <div className="show-time">01:00</div>
+                <div className="show-info">
+                  <h3 className="show-name">Diamond Revue</h3>
+                  <p className="show-desc">Финальное шоу ночи. Все артистки на одной сцене.</p>
+                </div>
+                <span className="menu-tag" style={{ position: "static", display: "inline-block", background: "var(--primary)" }}>Гала</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="retro-vibe">
           <div>
             <h2 className="vibe-title">АТМОСФЕРА, КОТОРАЯ ЦЕПЛЯЕТ.</h2>

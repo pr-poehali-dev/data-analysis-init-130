@@ -456,6 +456,77 @@ nav a:hover {
   color: var(--secondary);
 }
 
+/* Show Grid */
+.show-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .show-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+.show-card {
+  border: var(--border);
+  background: #1a0d14;
+  transition: 0.3s;
+}
+
+.show-card:hover {
+  box-shadow: var(--shadow);
+  transform: translate(-4px, -4px);
+}
+
+.show-day {
+  background: var(--primary);
+  color: white;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: var(--border);
+}
+
+.show-card-body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.show-time {
+  font-family: "Unbounded", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+  min-width: 80px;
+  line-height: 1;
+}
+
+.show-info {
+  flex: 1;
+}
+
+.show-name {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 6px;
+  color: var(--dark);
+}
+
+.show-desc {
+  font-size: 13px;
+  color: #aaa;
+  line-height: 1.4;
+}
+
 /* Vinyl Vibe Section */
 .retro-vibe {
   background: var(--primary);
